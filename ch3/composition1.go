@@ -33,12 +33,12 @@ func main() {
 
 	// create player using struct literal
 	player2 := Player{
-		User: User{ //apparently need to specify User:
+		User{
 			ID:       2,
 			Name:     "Nathan",
 			Location: "Jati Asih",
 		},
-		GameID: 6789,
+		6789,
 	}
 
 	fmt.Printf("Player 2: %v\n", player2)
